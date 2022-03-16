@@ -10,7 +10,7 @@ void perform_test() {
 	
 	// if the dimension of the grid wherein both rows and columns are odd, then it's not valid
 	
-	// otherwise, it a magical path can always be formed (Hamiltonian Path)
+	// otherwise, a magical path can always be formed (Hamiltonian Path)
 	if((n == 1 && m > 3) || (m == 1 && n > 3)) {
 		cout << "No";
 	} else if(n % 2 == 1 && m % 2 == 1) {
